@@ -70,7 +70,21 @@ footer {
     padding-bottom: 30px; 
 }
 .section3 {
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
     background-image: url(pic/img-locations-background.PNG);
-    
-
+}
+.boss {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 50px; 
+}
+.box {
+    margin: 40px;
+    width: 300px;
+    background-color: black;
 }
